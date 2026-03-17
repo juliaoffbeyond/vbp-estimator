@@ -1,5 +1,7 @@
 # VBP Estimator — Value-based Price Estimator
 
+**Live:** https://vbp-estimator-efilnpbb1-julia-1003s-projects.vercel.app
+
 A single-page internal tool for automation agency owners to calculate the true value an automation delivers to a client, and set a confident, defensible price based on that value.
 
 ---
@@ -106,9 +108,13 @@ Client ROI                = ((Total value − Price) ÷ Price) × 100
 
 ## Deploying to Vercel
 
+The app is deployed at:
+**https://vbp-estimator-efilnpbb1-julia-1003s-projects.vercel.app**
+
+To redeploy or set up from scratch:
 1. Push the repo to GitHub (already done).
 2. Import the project in [Vercel](https://vercel.com/new).
-3. Vercel auto-detects Vite — no configuration needed.
+3. Vercel auto-detects Vite — no build configuration needed.
 4. Add your `.env` variables under **Project → Settings → Environment Variables**.
 
 > **Note:** The security headers in `vite.config.js` apply to the dev/preview server only. For production headers on Vercel, add a `vercel.json` file — ask the team to set this up before going live.
