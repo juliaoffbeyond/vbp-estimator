@@ -8,7 +8,7 @@ dist/
 dist-ssr/
 build/
 
-# Environment variables — NEVER commit real .env or env.yaml
+# Environment variables — NEVER deploy real .env or env.yaml
 .env
 .env.local
 .env.*.local
@@ -34,3 +34,7 @@ vite.config.js.timestamp-*
 
 # Testing
 coverage/
+
+# Git
+.git/
+.gitignore
