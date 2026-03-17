@@ -159,7 +159,7 @@ export default function App() {
           {/* Intro */}
           <section className={styles.intro} aria-labelledby="intro-heading">
             <h1 id="intro-heading" className={styles.title}>
-              What is your automation actually worth?
+              What's your automation actually worth?
             </h1>
             <p className={styles.subtitle}>
               Enter the details below to calculate the total value your automation delivers — and
