@@ -1,6 +1,6 @@
 # VBP Estimator — Value-based Price Estimator
 
-**Live:** https://vbp-estimator-efilnpbb1-julia-1003s-projects.vercel.app
+**Live:** https://vbp-estimator.vercel.app
 
 A single-page internal tool for automation agency owners to calculate the true value an automation delivers to a client, and set a confident, defensible price based on that value.
 
