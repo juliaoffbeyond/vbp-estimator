@@ -56,3 +56,9 @@ npm run dev
 ```
 
 The `.env` file controls the default values pre-filled in the inputs — edit them to change the starting state of the tool.
+
+## Deployment
+
+The app is a static Vite build — deploy anywhere that serves static files. To deploy to Vercel: connect your GitHub repo, set the `VITE_*` environment variables in Vercel project settings, and deploy.
+
+**Live:** https://vbp-estimator.vercel.app
